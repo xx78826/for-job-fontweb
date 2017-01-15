@@ -1,37 +1,297 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/xx78826/for-job-fontweb/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/menus.css" type="text/css">
+     <link rel="stylesheet" href="css/layouts.css" type="text/css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<title>Web</title>
 
-### Markdown
+	<style>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	/*  navbar */
+	.pure-menu-left {
+		float: left;
+		color: #f15a5a;
+		font-size: 24px;
 
-```markdown
-Syntax highlighted code block
+	}	
+	.pure-menu-list  {
+		float:right;
+		color: white;
+	}
+	.pure-menu-list a {
+		color: white;
+	}
+	/* navbar */
+	
+	/* navbar background */
+	.first {
+		background-image: url("images/1.png");
+		width: 100%;
+    	height: 400px;
+    	background-size: 100% 100%;
+    	text-align: center;
+	}
+	/* navbar background */
+	/* init reset */
+	body{
+		margin: 0 0 0 0;
+	}
+	/* init reset */
+	#main-1{
+    width: 100%;
+    height: 400px;
+    background-image: url("images/1.png");
+    background-size: 100% 100%;
+    border: 1px solid white;
+    text-align: center;
 
-# Header 1
-## Header 2
-### Header 3
+    }
+    #main-1 h3 {
+    color: white;
+    position: relative;	
+    top: 25%;
+	left: 50%;
+  	font-size: 30px;
+  	transform: translate(-50%, -50%);
+    }
+    #main-1 h4 {
+    color: white;
+    position: relative;
+    top: 17%;
+	left: 50%;
+  	font-size: 13px;
+  	transform: translate(-50%, -50%);
+    }
+    .slogan {
+    	position: relative;
+    	top: 123px;
+    	display: block;
+    	margin: auto;
+    	width: 460px;
+    	height: 152px;
+    	background-color: red;
+    }
+    /* second */
+    .second {
+    	text-align: center;
+    	width: 100%;
+    }
+    section .main-1 {
+        display: inline-block;
+        float: left;
+        width: 260px;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:blue;
 
-- Bulleted
-- List
+    }
+    section .main-2 {
+        display: inline-block;
+        float: left;
+        width: 260px;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pure-u-1{
+        width: 31.33333%;
+        display: block;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        background: white;
+    }
+    .pic-1 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: auto;
+        background: white;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .pure-u-1 ul p {
+        text-align: center;
 
-1. Numbered
-2. List
+    }
+    /* 主廚介紹 */
+    .third {
+        max-width: 100%;
+        height: 460px;
+    }
+    .third .pic-2 {
+        position: relative;
+        display: block;
+        width: 470px;
+        height: 460px;
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+    .pic-2-word {
+        position: relative;
+        display: block;
+        padding-top: 10%;
+        padding-right: 10%;
+        float: right;
+        margin: auto;
+    }
+    /* 主廚介紹 */
+    /* 客人評價 */
+    .four-1-1 ul img {
+        width: 67px;
+        height: 67px;
+    }
+    .four-2-1 ul img {
+        width: 67px;
+        height: 67px;
+    }
+     .four-3-1 ul img {
+        width: 67px;
+        height: 67px;
+    }
+    .five {
+        width: 100%;
+        height: 400px;
+    }
+    .pic-last-1 img {
+        margin: auto;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    .pic-last-2 img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    .pic-last-3 img {
+        margin: auto;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+	</style>
+</head>
 
-**Bold** and _Italic_ and `Code` text
+<body>
+<section class="first">
+	<div class="pure-menu pure-menu-horizontal">
+          <a href="index.html" class="pure-menu-heading pure-menu-link pure-menu-left">Lifeisgood西餐廳</a>
+          <ul class="pure-menu-list">
+              <li class="pure-menu-item"><a href="menu.html" class="pure-menu-link">特色</a></li>
+              <li class="pure-menu-item"><a href="chef.html" class="pure-menu-link">主廚</a></li>
+              <li class="pure-menu-item"><a href="map.html" class="pure-menu-link">地圖</a></li>
+          </ul>
+    </div>
+    <div id="main-1">
+		<div class="slogan">
+			<h3>咬一口就無法忘懷的漢堡</h3>
+			<h4>七夕絕對無法錯過的好滋味</h4>
+			<h4>經典漢堡餐</h4>
+		</div>
+	</div>
+</section>
 
-[Link](url) and ![Image](src)
-```
+<section>
+	<div class="second">
+		<div id="1">
+			
+		</div>
+		<div id="2">
+		<h3>客人總是在詢問</h3>
+			<h3>這麼好吃的秘訣是什麼</h3>
+		</div>
+		<div id="3">
+			
+		</div>
+	</div>
+</section>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<section>
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pic-1">
+                <img src="images/feature_1.png">
+            </div>
+            <ul>
+                <p>台灣本土蔬菜</p>
+                 <br>
+                <p>從雲林每日清晨採收,直達台北的最新鮮的洋蔥</p>
+            </ul>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pic-1">
+                <img src="images/feature_2.png">
+            </div>
+            <ul>
+                <p>專業米其林廚師</p>
+                <br>
+                <p>遠從海外來到台灣,怎麼能夠不心動</p>
+            </ul>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pic-1">
+                <img src="images/feature_3.png">
+            </div>
+              
+            <ul>
+                <p>對於專業不能退讓</p>
+                 <br>
+                <p>穿上廚師袍,發揮職人精神</p>
+            </ul>
+        </div>
+</section>
+<section>
+<div class="third">
+    <div class="pic-2">
+         <img src="images/main_chef_gray.png">
+    </div>
 
-### Jekyll Themes
+     <div class="pic-2-word">
+            <div>
+                <h1>今日主廚: 史蒂芬</h1>
+                <h3>Today chef: Steve</h3>
+                <p>一起來品嚐我為大家帶來的美食,只有經典才能流傳</p>
+            </div>
+    </div>
+</div>
+</section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xx78826/for-job-fontweb/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<div class="five">
+</div>
+<section>
+    <div class="u-1">
+        <div class="l-box">
+            <h2>顧客體驗</h2>
+                <div class="pic-last-1">
+                    <img src="images/avatar_1.png" width="200px" height="200px">
+                </div>
+                    <p>為了吃這個漢堡,我特地從深山裡面走了三天三夜,就為了品嘗美味,相信我絕對值得你去吃,只有吃了才知道什叫做漢堡,我要搬來餐廳旁邊了!</p>
+                <div class="pic-last-2">
+                    <img src="images/avatar_2.png" width="200px" height="200px">
+                </div>
+                    <p>漢堡本身是來自於西方世界的,沒想到在這裡我找到了經典口味,沒有加起司的漢堡怎麼稱作經典,嘗試過一次就知道好吃!
+                    </p>
+                <div class="pic-last-3">
+                    <img src="images/avatar_3.png" width="200px" height="200px">
+                </div>
+                    <p>口味道地,食材精選,走過千萬不要錯過的一家經典餐廳,你這麼幸運得住在這個城市,怎麼能夠不嘗試看看,趕快去吃吧,我怕我再也吃不到這麼好吃的漢堡了!
+                    </p>
+        </div>
+    </div>
+</section>
+<div class="footer">
+        關於LIFEISGOOD餐廳 連結 <a href="#">link</a>
+</div>
+</body>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
