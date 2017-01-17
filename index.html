@@ -50,6 +50,7 @@
 
     }
     #main-1 h3 {
+    margin-bottom: 0;
     color: white;
     position: relative;	
     top: 25%;
@@ -180,6 +181,99 @@
         width: 100px;
         height: 100px;
     }
+    @media(max-width: 978px){
+        
+        .pic-2-word h1 {
+            padding-top: 110px;
+            font-size: 15px;
+            float: left;
+        }
+        .pic-2-word h3 {
+            display: none;
+        }
+        .pic-2-word p {
+            display: none;
+        }
+    }
+    @media(max-width: 625px){
+        .slogan {
+            display: none;
+        }
+        .pure-u-1 {
+            width: 40%;
+            height: auto;
+            padding-left: auto;
+            padding-right: auto;
+        }   
+        #pic-1-1-2 {
+            display: none;
+        }
+        #pic-1-1-1 {
+            padding-left: 30px;
+        }
+         #pic-1-2-1 {
+            padding-left: 45px;
+        }
+        #pic-1-2-2 {
+            display: none;
+        }
+        #pic-1-3-2 {
+            display: none;
+        }
+        .pic-1 {
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        #pic-1-3 {
+            margin-left: 70%;
+            margin-right: 70%;
+        }
+        .pic-1-3-1-1 {
+            display: none;
+        }
+        .pic-2-word h1 {
+            padding-top: 190px;
+            padding-right: 40px;
+            color: white;
+        }
+        .l-box {
+            padding-top: 200px;
+        }
+    }
+    @media(max-width: 495px){
+        .pure-u-1 {
+            width: 50%;
+            height: auto;
+            padding-left: 70px;
+            padding-right: auto;
+        }
+        #pic-1-3 {
+            display: none;
+        }
+        .l-box {
+            padding-top: 250px;
+        }
+        .pic-2 img {
+            padding-left:10px;
+            width: 350px;
+            height: 400px;
+        }
+    }
+    @media(max-width: 375px){
+           .pic-2 img {
+            padding-left:10px;
+            width: 250px;
+            height: 300px;
+        }
+    }
+    @media(max-width: 351px){
+           .pic-2 img {
+            display: none;
+        }
+          .l-box {
+            padding-top: 0px;
+        }
+    }     
 	</style>
 </head>
 
@@ -223,9 +317,9 @@
                 <img src="images/feature_1.png">
             </div>
             <ul>
-                <p>台灣本土蔬菜</p>
+                <p id="pic-1-1-1">台灣本土蔬菜</p>
                  <br>
-                <p>從雲林每日清晨採收,直達台北的最新鮮的洋蔥</p>
+                <p id="pic-1-1-2">從雲林每日清晨採收,直達台北的最新鮮的洋蔥</p>
             </ul>
         </div>
         <div class="pure-u-1 pure-u-md-1-3">
@@ -233,20 +327,20 @@
                 <img src="images/feature_2.png">
             </div>
             <ul>
-                <p>專業米其林廚師</p>
+                <p id="pic-1-2-1">專業米其林廚師</p>
                 <br>
-                <p>遠從海外來到台灣,怎麼能夠不心動</p>
+                <p id="pic-1-2-2">遠從海外來到台灣,怎麼能夠不心動</p>
             </ul>
         </div>
         <div class="pure-u-1 pure-u-md-1-3">
-            <div class="pic-1">
+            <div class="pic-1" id="pic-1-3">
                 <img src="images/feature_3.png">
             </div>
               
             <ul>
-                <p>對於專業不能退讓</p>
+                <p id="pic-1-3-1" class="pic-1-3-1-1">對於專業不能退讓</p>
                  <br>
-                <p>穿上廚師袍,發揮職人精神</p>
+                <p id="pic-1-3-2">穿上廚師袍,發揮職人精神</p>
             </ul>
         </div>
 </section>
